@@ -18,21 +18,21 @@ const UserApp = () => {
           </button>
           <div className="collapse navbar-collapse" id="mynavbar">
             <ul className="navbar-nav ms-auto">
-              <li className="nav-item">
+              <li className="nav-item me-4">
                 <Link className="nav-link active" to="/">
                   {" "}
                   <i className="fa fa-home"></i> Home
                 </Link>
               </li>
 
-              <li className="nav-item">
+              <li className="nav-item me-4">
                 <Link className="nav-link active" to="/cart">
                   {" "}
                   <i className="fa fa-shopping-cart"></i> Cart
                 </Link>
               </li>
 
-              <li className="nav-item">
+              <li className="nav-item me-4">
                 <Link className="nav-link active" to="/login">
                   {" "}
                   <i className="fa fa-lock"></i> Seller Login
