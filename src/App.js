@@ -1,25 +1,10 @@
-import logo from './logo.svg';
-import './App.css';
+import UserApp from "./user/userapp";
+import SellerApp from "./seller/sellerapp";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  let login = false;
+  if (login) return <SellerApp />;
+  else return <UserApp />;
 }
 
 export default App;
